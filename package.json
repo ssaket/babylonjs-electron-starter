@@ -1,0 +1,26 @@
+{
+  "name": "babylonjs-electron-starter",
+  "version": "1.0.0",
+  "description": "starter pack for babylonjs, an awesome 3d engine along with electron ",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "electron ./app/main.js"
+  },
+  "keywords": [
+    "babylonjs, electron"
+  ],
+  "author": "saket",
+  "license": "MIT",
+  "dependencies": {
+    "babylonjs": "^3.3.0",
+    "babylonjs-loaders": "^3.3.0",
+    "babylonjs-materials": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/paper": "^0.11.1",
+    "electron": "^3.0.1",
+    "typescript": "^3.0.3"
+  }
+}

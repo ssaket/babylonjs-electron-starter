@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "noImplicitAny": true,
+      "sourceMap": true,
+      "outDir": "app",
+      "baseUrl": ".",
+      "paths": {
+        "*": ["node_modules/*"]
+      }
+    },
+    "include": [
+      "src/**/*"
+    ],
+    "types": [
+      "babylonjs",
+      "babylonjs-materials",
+      "babylonjs-loaders"
+    ]
+  }
